@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:#12100C ;
+    font: 24px "Roboto", Arial, sans-serif;
+    background-color: #F5F3F4;
+}
+
+header{
+    min-height: 80px;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    max-height: 100% ;
+}
+button{
+    display: block;
+    border: none;
+    background-color: transparent;
+    font: inherit;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-primary{
+    color: #F9F9F9;
+    border-radius: 12px;
+} 
+.container{
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ---------header------------- */
+.header{
+    max-width: 1376px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-header__link__star{
+    color: #FF8A00;    
+}
+#header-section{
+    min-height: 80px;
+    padding: 24px 0 24px 0;
+}
+.header-logo{
+    width: 131px;
+    height: 40px;
+}
+.nav-header{
+    margin: auto;
+}
+.nav-header__list{
+    display: flex;
+    gap: 48px;
+}
+.nav-header__link:hover{
+    color: #FF8A00;
+}
+.header-login__btn{
+    color: #F9F9F9;
+    padding: 6px 22px 6px 23px;
+    background-color:#12100C;
+}
+.header-login__btn:hover{
+    background-color: #606060;
+}
+/* ------------banner--------- */
+#section-banner{
+    position: relative;
+    padding-bottom: 18px;
+}
+.banner{
+    max-width: 560px;
+    padding:80px 0 178px 0 ;
+}
+.banner__main{
+    font-size: 80px;
+    line-height: 88px;
+}
+.banner__text{
+    margin: 32px 0 48px 0;
+    font-size: 23px;
+    line-height: 32px;
+    color: rgb(18, 16, 12, 0.7);
+}
+.banner-button-wrap{
+    display: flex;
+    align-items: center;
+}
+.banner__btn{
+    padding:11px 46px 12px 46px;
+    white-space: nowrap; /*убирает перпенос строки*/
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 16px;
+    color: #12100C;
+    background-color:#FFAE33;
+}
+.banner__btn:hover{
+    background-color:#ffad33c0 ;
+}
+.button__text{
+    padding-left: 24px;
+    font-size:16px ;
+    color: rgb(18, 16, 12, 0.7);
+}
+.banner__link{
+    display: flex;
+    padding-left: 8px;
+    align-items: center;
+    gap: 29px;
+    margin-top: 16px;
+}
+.banner-img{
+    padding:32px 0 18px;
+}
+.banner-img__room{
+    width: 700px;
+    height: 672px;
+}
+/* --------section-select_project----------- */
+#section-select_project{
+    padding: 18px 0 18px 0;
+}
+.select_project__text{
+    padding:160px 0 160px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 700;
+}
+.select_project__text-p{
+    color: #999795;
+    font-weight: 400;
+    text-decoration: line-through 3px;
+}
+/* -------section-documentation----- */
+#section-documentation{
+    padding-bottom: 177px;
+}
+.information{
+    max-width: 655px;
+    padding:56px 70px 56px 0;
+    white-space: nowrap;
+}
+.information__text{
+    font-size: 32px;
+    font-weight: 700;
+    color: #12100C;
+}
+.information__text-p{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(18, 16, 12, 0.7) ;
+}
+.information__btn{
+    padding-top:139px;
+    display: flex;
+    gap: 16px;
+}
+.more__btn{
+    padding:7px 18px 9px 18px;
+    white-space: nowrap; /*убирает перпенос строки*/
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10.5px;
+    color: #12100C;
+    background-color:#FFAE33;
+}
+.more__btn:hover{
+    background-color:#ffad33a3;
+}
+.documentation__btn{
+    padding:7px 24px 9px 24px;
+    white-space: nowrap; /*убирает перпенос строки*/
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10.5px;
+    color: #12100C;
+    background-color:#FFB0AE;
+}
+.documentation__btn:hover{
+    background-color:#ffafaeaf;
+}
+/* ------section-remote-first----- */
+#section-remote-first{
+    padding-bottom: 179px;
+}
+.design{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.design__text{
+    padding-bottom: 48px;
+    font-size: 54px;
+}
+.browser{
+    display: flex;
+    padding-top: 48px;
+    gap: 16px;
+}
+.browser__text{
+    text-align: center;
+    padding-top: 49px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(18, 16, 12, 0.7);
+}
+.chrome{
+    display: flex;
+    padding:7px 12px 9px 12px;
+    gap: 10px;
+    white-space: nowrap; /*убирает перпенос строки*/
+    align-items: center;
+    border: #12100C solid 1px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10.5px;
+    color: #12100C;
+    background-color:#ffffff;
+}
+.firefox{
+    display: flex;
+}
+.firefox{
+    display: flex;
+    padding:7px 12px 9px 12px;
+    gap: 10px;
+    white-space: nowrap; /*убирает перпенос строки*/
+    align-items: center;
+    border: #12100C solid 1px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10.5px;
+    color: #12100C;
+    background-color:#ffffff;
+}
+/*---------section-developers-------*/
+#section-developers{
+    padding-bottom: 178px;
+}
+
